@@ -1,0 +1,94 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif; 
+    }
+    :root {
+        --text-color: #667085;
+        --main-button-color: #8E2424;
+        --titletext-color: #101828;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+    /* navigation section*/
+    #name{
+        color:#3A404E;
+        font-size: 1.8vw;
+    }
+    #menu_items{
+        color:var(--text-color) ; 
+        }
+    #logo{
+        width: 27px;
+    }
+    #button{
+        background-color:var(--main-button-color);
+        color: white;
+        cursor: pointer;
+        padding: 0.8vw 1.2vw;
+        border-radius: 8px;
+        border: none;
+    }
+    #menuLogoHome{
+        column-gap:5vw;
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-around;
+        padding: 8px;
+        font-style: medium; 
+        font-weight: 500px;
+        font-size: 1.5vw;
+        line-height: 24px;
+    }
+    .menu_logo{
+        display: flex;
+        column-gap: 0.8vw;
+        align-items:center;
+      }
+    .menu_home{
+        display:flex;
+        column-gap: 2.5vw;
+    }
+    .menu_buttons{
+        display: flex;
+        align-items: center;
+        column-gap: 2.2vw;
+        background-color:white ;
+    }
+    /* header section */
+    .section_header{
+        padding:96px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2.5vw; 
+    }
+    h4{
+        font-style:medium;
+        color:var(--main-button-color);
+        font-weight: 600px;
+        font-size:  1rem;
+    }
+    h1{
+        font-style:medium;
+        color:var(--titletext-color);
+        font-weight: 600px;
+        font-size: 3rem;
+    }
+    #first_section_of_text{
+        font-style:normal;
+        color:var(--text-color);
+        font-weight: 400px;
+        font-size: 1.25rem;
+        text-align: center;
+    }
