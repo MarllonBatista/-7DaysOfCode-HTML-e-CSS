@@ -14,11 +14,12 @@
     body{
         width: 100%;
         height: 100vh;
+        background-color: white;
     }
     /* navigation section*/
     #name{
         color:#3A404E;
-        font-size: 1.8vw;
+        font-size: 1.5vw;
     }
     #menu_items{
         color:var(--text-color) ; 
@@ -46,7 +47,7 @@
         justify-content:space-around;
         padding: 8px;
         font-style: medium; 
-        font-weight: 500px;
+        font-weight: 500;
         font-size: 1.5vw;
         line-height: 24px;
     }
@@ -73,22 +74,58 @@
         align-items: center;
         row-gap: 2.5vw; 
     }
-    h4{
+ .section_header h4{
         font-style:medium;
         color:var(--main-button-color);
-        font-weight: 600px;
+        font-weight: 600;
         font-size:  1rem;
     }
-    h1{
+    .section_header h1{
         font-style:medium;
         color:var(--titletext-color);
-        font-weight: 600px;
+        font-weight: 600;
         font-size: 3rem;
+        text-align: center;
     }
     #first_section_of_text{
         font-style:normal;
         color:var(--text-color);
-        font-weight: 400px;
+        font-weight: 400;
         font-size: 1.25rem;
         text-align: center;
     }
+    .section-container{
+        display: flex;
+        margin: 0 auto;
+        justify-content:space-between;
+        width: 90%; 
+       
+    }
+    .section-container > #first-metric, #second-metric,#third-metric,#fourth-metric{
+        row-gap:1.5vh;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .section-container  h1{
+        color: var(--main-button-color);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.7rem;
+    }
+    .section-container h4{
+        color:var(--titletext-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+    .section-container span{
+        color:var(--text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9rem;
+    }
+    .section-container #first-metric span , #second-metric span,#third-metric span,#fourth-metric span{
+        line-height: 3vh;
+    }
+    
