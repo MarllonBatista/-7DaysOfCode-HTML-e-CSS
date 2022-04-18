@@ -40,7 +40,7 @@
         display: flex;
         align-items: center;
     }
-    .menu{
+    .menu-container{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -67,20 +67,20 @@
         background-color:white ;
     }
     /* header section */
-    .section_header{
+    .header-container{
         padding:96px;
         display:flex;
         flex-direction: column;
         align-items: center;
         row-gap: 2.5vw; 
     }
- .section_header h4{
+    .header-container h4{
         font-style:medium;
         color:var(--main-button-color);
         font-weight: 600;
         font-size:  1rem;
     }
-    .section_header h1{
+    .header-container h1{
         font-style:medium;
         color:var(--titletext-color);
         font-weight: 600;
@@ -94,38 +94,76 @@
         font-size: 1.25rem;
         text-align: center;
     }
-    .section-container{
+    .metric-container{
         display: flex;
         margin: 0 auto;
         justify-content:space-between;
         width: 90%; 
        
     }
-    .section-container > #first-metric, #second-metric,#third-metric,#fourth-metric{
+    .metric-container > #first-metric, #second-metric,#third-metric,#fourth-metric{
         row-gap:1.5vh;
         display: flex;
         flex-direction: column;
         align-items:flex-start;
     }
-    .section-container  h1{
+    .metric-container  h1{
         color: var(--main-button-color);
         font-style: normal;
         font-weight: 600;
         font-size: 3.7rem;
     }
-    .section-container h4{
+    .metric-container h4{
         color:var(--titletext-color);
         font-style: normal;
         font-weight: 500;
         font-size: 1.1rem;
     }
-    .section-container span{
+    .metric-container span{
         color:var(--text-color);
         font-style: normal;
         font-weight: 400;
         font-size: 0.9rem;
     }
-    .section-container #first-metric span , #second-metric span,#third-metric span,#fourth-metric span{
+    .metric-container #first-metric span , #second-metric span,#third-metric span,#fourth-metric span{
         line-height: 3vh;
+    }
+    .talent-section{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:100px;
+    }
+    .talent-section h4{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.87rem;
+        color: var(--main-button-color);
+        background: rgba(142, 36, 36, 0.05);
+        border-radius: 1rem;
+        padding: 0.25rem 0.75rem;
+        margin-bottom: 1rem;
+    }
+    .talent-section h2{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.25rem;
+        color: var(--titletext-color);
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .talent-section span{
+        font-style: normal;
+        font-weight: 400;
+        font-size:1.25rem;
+        text-align: center;
+        color: var(--text-color);
+        margin-bottom: 4rem;
+    }
+    .talent-section img{
+        width: 90%;
+        margin: 0 auto;
+       
     }
     
