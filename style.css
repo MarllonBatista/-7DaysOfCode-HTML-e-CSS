@@ -166,4 +166,53 @@
         margin: 0 auto;
        
     }
+    .vacancy-container{
+        width: 96%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .vacancy-container .segond-vacancy-container{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
+        width: 60%;
+    }
+     .first-vacancy , .second-vacancy{
+         width: 100%;
+     }
+    .vacancy-container #title-vacancy{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: var(--titletext-color);
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .vacancy-container .information{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        color: var(--text-color);
+        margin-left: 1.5rem;
+        border: 1px solid #EAECF0;
+        border-radius: 1rem;
+        padding: 1.5rem 1.5rem 1.7rem;
+    }
+    .vacancy-container #title-information{
+        margin-bottom: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: var(--titletext-color);
+    }
+    .first-vacancy .first-information , .second-vacancy .first-information,.second-vacancy .second-information {
+        margin-bottom: 1.5rem;
+    } 
+   
     
