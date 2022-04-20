@@ -214,5 +214,49 @@
     .first-vacancy .first-information , .second-vacancy .first-information,.second-vacancy .second-information {
         margin-bottom: 1.5rem;
     } 
-   
-    
+    .testimonials-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96%;
+        margin: 0 auto;
+        background:rgba(196, 25, 25, 0.03);
+        border-radius: 1rem;
+        margin-top: 6rem;
+        padding: 4rem;
+    }
+    .testimonials-container h4{
+        color: var(--main-button-color);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.87rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        
+    }
+    .testimonials-container h1{
+        color: var(--titletext-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.25rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .testimonials-container img{
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .testimonials-container #name{
+        color: var(--titletext-color);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+    } 
+    .testimonials-container #profession{
+        color: var(--text-color);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.87rem;
+    }
