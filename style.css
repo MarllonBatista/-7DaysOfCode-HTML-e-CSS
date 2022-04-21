@@ -292,6 +292,9 @@
         font-weight: 400;
         font-size: 1rem;
     }
+    label{
+        visibility: hidden;
+    }
     footer #email{
         background-color: #FFFFFF;
         border: 1px solid #D0D5DD;
