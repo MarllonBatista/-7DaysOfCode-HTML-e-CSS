@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OptimusTech</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,18 +21,33 @@
                         <a id="name" href="">OptimusTech</a>
                     </div>
 
-                    <div class="menu_home">
-                        <a id="menu_items" href="">Home</a>
-                        <a  id="menu_items"href="">Produtos</a>
-                        <a  id="menu_items"href="">Recursos</a>
-                        <a  id="menu_items"href="">Sobre nós</a>
+                    <div class="menu_home" id="menu">
+                        <a id="menu_items" href="#">Home</a>
+                        <a  id="menu_items"href="#">Produtos</a>
+                        <a  id="menu_items"href="#">Recursos</a>
+                        <a  id="menu_items"href="#">Sobre nós</a>
                     </div>
                 </div>
-
-                <div class="menu_buttons">
-                    <a id="menu_items" href="">Entrar</a>
+                <div class="menu_buttons" id="menu">
+                    <a id="menu_items" href="#">Entrar</a>
                     <button id="button">Cadastrar</button>
                 </div>
+                <!--menu  mobile-->
+                <div id="menu-mobile">
+                    <div class="menu_home" >
+                        <a id="menu_items" href="#">Home</a>
+                        <a  id="menu_items"href="#">Produtos</a>
+                        <a  id="menu_items"href="#">Recursos</a>
+                        <a  id="menu_items"href="#">Sobre nós</a>
+                    </div>
+                    <div class="menu_buttons" >
+                        <a id="menu_items" href="#">Entrar</a>
+                        <button id="button">Cadastrar</button>
+                    </div>
+                </div>
+                
+                <img  id="open-menu" src="./image/dots-menu.png" alt="imagem Menu de pontos">
+                
             </nav>
         </header>
 
@@ -59,7 +75,7 @@
                 <h1>100+</h1>
                 <h4>Colaboradores</h4>
                 <span>
-                    Temos mais de 100 ccolaaboradores<br/>
+                    Temos mais de 100 colaboradores<br/>
                     no nosso time que se preocupam<br/>
                     com nossos clientes.
                 </span>
@@ -154,7 +170,7 @@
             <span id="text-footer">© 2022 OptimusTech. Todos os direitos reservados.</span>
         </footer>
 
-
+<script src="script.js"></script>
     </body>
 
    

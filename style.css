@@ -6,10 +6,13 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif; 
     }
+    h1{
+        margin:0;
+    }
     :root {
         --text-color: #667085;
         --main-button-color: #8E2424;
-        --titletext-color: #101828;
+        --titletext-color: rgb(16, 24, 40);
     }
     body{
         width: 100%;
@@ -19,20 +22,23 @@
     /* navigation section*/
     #name{
         color:#3A404E;
-        font-size: 1.5vw;
+        font-size: 1.2rem;
     }
     #menu_items{
         color:var(--text-color) ; 
         }
-    #logo{
+    #logo, #open-menu{
         width: 27px;
+    }
+    #open-menu,#menu-mobile{
+        display: none;
     }
     #button{
         background-color:var(--main-button-color);
         color: white;
         cursor: pointer;
-        padding: 0.8vw 1.2vw;
-        border-radius: 8px;
+        padding: 0.6rem 1.2rem;
+        border-radius: 0.5rem;
         border: none;
     }
     #menuLogoHome{
@@ -48,8 +54,7 @@
         padding: 8px;
         font-style: medium; 
         font-weight: 500;
-        font-size: 1.5vw;
-        line-height: 24px;
+        font-size: 1rem;
     }
     .menu_logo{
         display: flex;
@@ -64,7 +69,6 @@
         display: flex;
         align-items: center;
         column-gap: 2.2vw;
-        background-color:white ;
     }
     /* header section */
     .header-container{
@@ -133,7 +137,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top:100px;
+        margin-top:6.25rem;
     }
     .talent-section h4{
         font-style: normal;
@@ -265,7 +269,7 @@
         display: flex;
         flex-direction: column;
         align-items:center; 
-        padding:4rem 0;
+        padding:4rem 0.5rem;
     }
     footer h1{
         color: var(--titletext-color);
@@ -327,3 +331,6 @@
         color: #98A2B3;
         text-align: center;
     }
+
+ 
+   
