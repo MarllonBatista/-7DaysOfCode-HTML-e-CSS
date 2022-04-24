@@ -7,6 +7,7 @@ Você pode visualizar o projeto no link abaixo 👇🏾<br/><br/>
 <h2>💻 Linguagens que foram utilizadas:</h2>
  <img align="center" alt="marllon-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  <img align="center" alt="marllon-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+ <img align="center" alt="marllon-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
  
 </div>
 <h2>​👨🏾‍💻 Autor</h2>
