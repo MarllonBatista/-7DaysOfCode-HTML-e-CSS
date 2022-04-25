@@ -35,8 +35,8 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content:space-between;
-        padding: 8px;
+        justify-content:space-around;
+        padding: 8px 0px;
         font-style: medium; 
         font-weight: 500;
         font-size: 1rem;
@@ -51,9 +51,9 @@
         flex-direction: column;
         align-items:center;
         width: 100%;
-        height:calc(100vh- 52px);
-        background-color:var(--titletext-color);
-        z-index: 1000;
+        height:100vh;
+        background-color:white;
+       
     }
      .menu_home {
         display: flex;
@@ -74,6 +74,7 @@
     #open-menu{
         display:inline-block;
         cursor: pointer;
+       
     }
     footer #text {
         color:var(--text-color);
