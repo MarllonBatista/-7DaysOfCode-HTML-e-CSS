@@ -44,6 +44,10 @@
     #menu{
         display:none;
     }
+    /* menu mobile ativo*/
+    #body.active{
+       overflow-y: hidden;
+    }
     #menu-mobile.active{
         position:absolute;
         top:52px;
@@ -53,7 +57,7 @@
         width: 100%;
         height:100vh;
         background-color:white;
-       
+
     }
      .menu_home {
         display: flex;
